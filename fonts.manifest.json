@@ -1,0 +1,29 @@
+{
+  "fonts": [
+    {
+      "name": "JetBrainsMono Nerd Font",
+      "installName": "JetBrainsMono",
+      "releaseAsset": "JetBrainsMono.tar.xz"
+    },
+    {
+      "name": "FiraCode Nerd Font",
+      "installName": "FiraCode",
+      "releaseAsset": "FiraCode.tar.xz"
+    },
+    {
+      "name": "Hack Nerd Font",
+      "installName": "Hack",
+      "releaseAsset": "Hack.tar.xz"
+    },
+    {
+      "name": "MesloLGM Nerd Font",
+      "installName": "Meslo",
+      "releaseAsset": "Meslo.tar.xz"
+    },
+    {
+      "name": "CaskaydiaCove Nerd Font",
+      "installName": "CascadiaCode",
+      "releaseAsset": "CascadiaCode.tar.xz"
+    }
+  ]
+}
