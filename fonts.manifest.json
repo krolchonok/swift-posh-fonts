@@ -24,6 +24,18 @@
       "name": "CaskaydiaCove Nerd Font",
       "installName": "CascadiaCode",
       "releaseAsset": "CascadiaCode.tar.xz"
+    },
+    {
+      "name": "GohuFont uni 11",
+      "installName": "GohuFontuni11",
+      "releaseAsset": "GohuFontuni11NerdFontMono-Regular.ttf",
+      "sourceUrl": "https://raw.githubusercontent.com/ryanoasis/nerd-fonts/master/patched-fonts/Gohu/uni-11/GohuFontuni11NerdFontMono-Regular.ttf"
+    },
+    {
+      "name": "GohuFont uni 14",
+      "installName": "GohuFontuni14",
+      "releaseAsset": "GohuFontuni14NerdFontMono-Regular.ttf",
+      "sourceUrl": "https://raw.githubusercontent.com/ryanoasis/nerd-fonts/master/patched-fonts/Gohu/uni-14/GohuFontuni14NerdFontMono-Regular.ttf"
     }
   ]
 }

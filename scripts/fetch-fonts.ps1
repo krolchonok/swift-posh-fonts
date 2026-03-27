@@ -21,7 +21,12 @@ foreach ($font in $manifest.fonts) {
         continue
     }
 
-    $uri = "https://github.com/ryanoasis/nerd-fonts/releases/latest/download/$assetName"
+    $uri = if ($font.PSObject.Properties['sourceUrl']) {
+        [string]$font.sourceUrl
+    } else {
+        "https://github.com/ryanoasis/nerd-fonts/releases/latest/download/$assetName"
+    }
+
     Write-Host ("Downloading: {0}" -f $assetName)
     Invoke-WebRequest -Uri $uri -OutFile $targetPath
 }
